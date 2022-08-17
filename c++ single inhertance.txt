@@ -1,0 +1,31 @@
+// i divid this program into three part//
+
+#include<iostream>
+using namespace std;
+ // part 1 we created a class
+ class parentclass 
+ {
+     public :
+    string firstname;
+    int rollno;
+
+ };
+
+ // part 2 we inheritance parentclass
+ 
+class childclass : public parentclass
+{
+
+};
+
+// part 3 is a main function 
+
+int main()
+{
+    childclass c1;
+    c1.firstname = "praveen kumar";
+    c1.rollno = 007;
+    cout<< c1.firstname << endl;
+    cout<< c1.rollno << endl;
+    return 0;
+}
